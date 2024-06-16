@@ -5,6 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyC_SHmYakAFXmZZNbJ-8FiMWsKrl_6iUVU",
+        authDomain: "shufra-1.firebaseapp.com",
+        projectId: "shufra-1",
+        storageBucket: "shufra-1.appspot.com",
+        messagingSenderId: "707373706199",
+        appId: "1:707373706199:web:3d9dde6dfec2037d7b3992"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </head>
   <body>
     <div id="root"></div>
